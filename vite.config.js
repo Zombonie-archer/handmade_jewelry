@@ -6,6 +6,7 @@ import SortCss from 'postcss-sort-media-queries';
 
 export default defineConfig(({ command }) => {
   return {
+    base: '/handmade_jewelry/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
